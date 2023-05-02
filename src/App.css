@@ -1,0 +1,64 @@
+/* =========== google fonts =========== */
+@import url('https://fonts.googleapis.com/css2?family=Marmelad:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/* ======== basic style ======= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: #ddddddb7;
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+
+section,
+footer {
+  padding: 30px 0px;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Marmelad", sans-serif !important;
+  color: black;
+}
+
+h3 {
+  font-weight: 400;
+  font-family: 'Marmelad', cursive !important;
+  color: black;
+}
+
+h5 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  color: #6d6d6d;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding: 40px 0px;
+  }
+}
